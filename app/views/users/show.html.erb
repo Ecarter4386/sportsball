@@ -14,7 +14,7 @@
   	<%if @user.avatar.url != nil%>
   	<p>
   		<strong>Avatar:</strong>
-  	<%= image_tag @user.avatar.url %>
+  	<%= image_tag @user.avatar.url, size: 500 %>
  		</p>
  		<%end%>
 
